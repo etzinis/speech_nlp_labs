@@ -1,0 +1,118 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph_nosp_tgpr/words.txt exp/tri1/final.mdl exp/tri1/graph_nosp_tgpr/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_eval92/split2/1/utt2spk scp:data/test_eval92/split2/1/cmvn.scp scp:data/test_eval92/split2/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode_nosp_tgpr_eval92/lat.1.gz" 
+# Started at Sun Jan 10 20:40:34 EET 2016
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph_nosp_tgpr/words.txt exp/tri1/final.mdl exp/tri1/graph_nosp_tgpr/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_eval92/split2/1/utt2spk scp:data/test_eval92/split2/1/cmvn.scp scp:data/test_eval92/split2/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode_nosp_tgpr_eval92/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test_eval92/split2/1/utt2spk scp:data/test_eval92/split2/1/cmvn.scp scp:data/test_eval92/split2/1/feats.scp ark:- 
+001c0u0g MANY FUND MANAGERS INCLUDING THOSE WITH HIGH CASH RESERVES ARE WALKING OF THEM WANT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0g is -8.30685 over 610 frames.
+001c0u0h THAT'S BECAUSE EVEN HIGH CASH LEVELS CAN RUN OUT QUICKLY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0h is -8.26247 over 451 frames.
+001c0u0i THUS THEIR ABILITY TO STAY ON COURSE WILL BE PARTLY DETERMINED BY THE DRAIN ON THEIR CASH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0i is -8.31702 over 569 frames.
+001c0u0j POWER HASN'T YET PAST COMPLETELY TO THE YOUNGER GENERATION 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0j is -8.30707 over 399 frames.
+001c0u0k JOSEPH COORS WILL RETAIN HIS POSITIONS OF VICE CHAIRMAN AND DIRECTOR 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0k is -8.26421 over 475 frames.
+001c0u0l AND HIS BROTHER IT WILL YOU PAY SEVENTY ONE REMAINS IN HIS POSITION AS CHAIRMAN 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0l is -8.18368 over 571 frames.
+001c0u0m A MONSANTO SPOKESMAN SAID THERE'S VERY LITTLE WEEK IN SIGHT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0m is -8.16083 over 467 frames.
+001c0u0n WE JUST RECEIVED THE SUIT OF A DOCUMENT IS MASSIVE ITS TWO HUNDRED PAGES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0n is -8.12927 over 541 frames.
+001c0u0o BUT ON THE FIRST READ THROUGH THE CASE IS WITHOUT MERIT AND WE INTEND TO FIGHT IT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0o is -8.01693 over 534 frames.
+001c0u0p SHEARSON LEHMAN HUTTON INCORPORATED'S INDEX OF LONG TERM TREASURY BONDS STAYED IN A VERY SMALL WAGE YESTERDAY FINISHING VERY CLOSE TO WEDNESDAY'S CLOSING LEVEL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0p is -8.34365 over 1022 frames.
+001c0u0q THE INDEX ENDED WITH THE DECLINE OF ZERO POINT THREE FIVE POINT TO ONE THOUSAND TWO HUNDRED SEVENTY TWO POINT ONE EIGHT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0q is -8.20105 over 757 frames.
+001c0u0r THE LOW WAS ONE THOUSAND TWO HUNDRED SEVENTY POINT ONE OH IN OF THE HIGH WAS ONE THOUSAND TWO HUNDRED SEVENTY THREE POINT EIGHT EIGHT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0r is -8.17331 over 783 frames.
+001c0u0s THE JURY AWARDED MR. SHEINBERG ONE HUNDRED FIVE MILLION DOLLARS A FIGURE BASED ON TEN YEARS THE PROFITS HAD HIS PROJECT BEEN COMPLETED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0s is -8.33923 over 850 frames.
+001c0u0t CONTINENTAL STARTED THE APPEAL PROCESS BUT RECENTLY SETTLED THE KIDS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0t is -8.36169 over 452 frames.
+001c0u0u NEITHER SIDE WOULD DISCLOSE TERMS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0u is -7.77489 over 328 frames.
+001c0u0v ORDERS FOR TRANSPORTATION EQUIPMENT SURGED THIRTY FIVE POINT FIVE PERCENT REFLECTING BOTH THE BIG JUMP IN AIRCRAFT IMPORTS AND AN INCREASE IN SHIPBUILDING AND TANKS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0v is -8.44191 over 976 frames.
+001c0u0w AIRCRAFT ORDERS ARE HIGHLY VOLATILE THE LATEST DUMP APPARENTLY REFLECTS ORDERS RECEIVED EARLIER BY BOEING COMPANY THAT DIDN'T SHOW UP IN GOVERNMENT DATA UNTIL LAST MONTH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0w is -8.41747 over 1037 frames.
+001c0u0x IN MANY OF THE TRANSPORTATION EQUIPMENT CATEGORY FELL TEN POINT TWO PERCENT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0x is -8.09251 over 505 frames.
+001c0u0y THE COMPANY SAID IT WOULD BE DUE TO A DUTCH AUCTION LATER THIS WEEK FOR AS MANY AS FORTY MILLION SHARES OR TWENTY SIX PERCENT OF ITS SHARES OUTSTANDING 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0y is -8.31503 over 883 frames.
+001c0u0z IN A DUTCH AUCTION HOLDERS TENDER THEIR SHARES AT PRICES WITHIN A STATED RANGE IN THIS CASE THE TREE TWENTY EIGHT DOLLARS AND THIRTY THREE DOLLARS A SHARE OR 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u0z is -8.4271 over 909 frames.
+001c0u10 THE COMPANY THEN ACCEPTS THE SHARES TENDERED AT THE LOWEST PRICE NEEDED TO REACH ITS TOTAL THEN PAYS THAT AMOUNT FOR ALL SHARES IT PURCHASES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u10 is -8.11847 over 979 frames.
+001c0u11 UTILITY ANALYSTS HOWEVER EXPECT THE AGREEMENT TO BE COMPLETED WITHOUT MUCH DIFFICULTY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u11 is -8.20446 over 577 frames.
+001c0u12 YESTERDAY MOODY'S INVESTOR SERVICE RAISED LILCO'S CREDIT RATINGS IN RECOGNITION OF THE IMPROVED OUTLOOK FOR STEADY FINANCIAL RECOVERY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u12 is -8.4086 over 861 frames.
+001c0u13 ABOUT THREE POINT FIVE BILLION DOLLARS OF SECURITIES ARE AFFECTED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u13 is -7.97372 over 469 frames.
+001c0u14 OUR NEW YORK LAWYER SAY HOLLY FARMS PRESS RELEASE SETS HOLLY FARMS IS BASICALLY FOR SALE HE SAID 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u14 is -8.1935 over 724 frames.
+001c0u15 THE QUESTION AND BECOMES GENTLEMAN FOR HOW MUCH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u15 is -7.96635 over 411 frames.
+001c0u16 IF THERE'S GOING TO BE AN OPTION IN PEOPLE ARE GOING TO BE SEEN CONFIDENTIAL INFORMATION WOULD LIKE TO BE PART OF THE PARTY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 001c0u16 is -8.45294 over 690 frames.
+002c0u0g THE DIVISIONAL SEGMENT ITS OPERATIONS INTO A SEPARATE BUSINESS MARKET UNIT AND EDUCATION MARKET UNIT AND A MARKETING AND SUPPORT UNIT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0g is -8.54325 over 901 frames.
+002c0u0h THE DIVISION ALSO WILL CREATE THREE TO GRAPPLE THE UNIT'S AMOUNT AS ITS EASTERN CENTRAL AND WESTERN MARKETING OPERATIONS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0h is -8.29906 over 846 frames.
+002c0u0i THE AMERICAN STOCK EXCHANGE INDEX ADVANCED TWO POINT FIVE ONE TO TWO HUNDRED NINETY SEVEN POINT FIVE TO EIGHT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0i is -8.26058 over 836 frames.
+002c0u0j THE AVERAGE PRICE PER SHARE ROSE TEN CENTS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0j is -7.88118 over 398 frames.
+002c0u0k VOLUME TOTALED OWN LEVIN POINT FOUR MILLION SHARES COMPARED WITH NINE POINT THREE MILLION TUESDAY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0k is -8.1585 over 710 frames.
+002c0u0l SO FAR THIS STRATEGY IS WORKING 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0l is -8.04216 over 290 frames.
+002c0u0m A FEDERAL JUDGE IN LOS ANGELES HAS FLOPPED ARE PRELIMINARY INJUNCTION ON THE TENDER OFFER UNTIL THE COURT CONSIDERS CERTAIN RELATED ANTITRUST ISSUES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0m is -8.23705 over 1000 frames.
+002c0u0n THE INJUNCTION IS UNDER APPEAL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0n is -8.07583 over 288 frames.
+002c0u0o THE COMPANIES SAID THE ACTIONS WERE TAKEN TO CUT OPERATING EXPENSES BY TEN PERCENT BECAUSE OF LOWER TRADING ACTIVITY SINCE THE OCTOBER STOCK MARKET CRASH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0o is -8.46295 over 970 frames.
+002c0u0p IN A STATEMENT LATE YESTERDAY THE COMPANY DIDN'T SPECIFY THE NUMBER OF EMPLOYEES NEEDED TO TAKE THE VOLUNTARY LEAVES IN ORDER FOR IT TO REDUCE ITS EXPENSES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0p is -8.34862 over 1102 frames.
+002c0u0q A SPOKESMAN SAID HE COULDN'T BE MORE SPECIFIC 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0q is -8.3358 over 344 frames.
+002c0u0r THERE WAS THE STRICKEN SPLIT BETWEEN THE SEXES WITH MEN MORE LIKELY THAN WOMEN TO FAVOR SPACE PROGRAMS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0r is -8.59259 over 700 frames.
+002c0u0s AMONG MEN FIFTY SIX PERCENT SAID THE U. S. WAS DOING TOO LITTLE IN SPACE EXPLORATION ONLY A QUARTER OF WOMEN AGREED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0s is -8.33333 over 869 frames.
+002c0u0t AMONG MEN FORTY ONE PERCENT SUPPORTED BOOSTING THIS SPACE EXPLORATION BUDGET COMPARED WITH NINETEEN PERCENT OF WOMEN 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0t is -8.32249 over 777 frames.
+002c0u0u GOVERNMENT FARM PROGRAMS ARE NOT PERFECT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0u is -8.16181 over 345 frames.
+002c0u0v YET AMERICANS CONTINUE TO BE AMONG THE BEST FED PEOPLE AT THE LOWEST CONSUMER COSTS OF THE WORLD 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0v is -8.21071 over 646 frames.
+002c0u0w REMEMBER TO BLAMED THE NINETEEN EIGHTY FIVE FARM BILL FOR THE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0w is -7.99779 over 418 frames.
+002c0u0x THE OFFICIAL DECLINED TO ELABORATE ON PROJECTIONS FOR NON TELEPHONE OPERATIONS BUT CITED SEVERAL INDICATORS OF RECENT GAINS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0x is -8.35231 over 858 frames.
+002c0u0y HE SAID THE COMPANY HAS ENTERED SIXTEENTH SMALLER CELLULAR MARKET THIS YEAR AND HAS EXPANDED ITS FINANCIAL SERVICES WORK FORCE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0y is -8.32733 over 843 frames.
+002c0u0z IN ADDITION U. S. WEST'S DIDN'T SOLUTIONS BUSINESS APPLIED COMMUNICATIONS INCORPORATED IS WORKING HOW WELL AND PERFORMING AHEAD OF ALL OR SCHEDULES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u0z is -8.35386 over 1100 frames.
+002c0u10 UTILITY ANALYSTS HOWEVER EXPECT BIGGER IMAGE BE COMPLETED WITHOUT MUCH DIFFICULTY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u10 is -8.1979 over 651 frames.
+002c0u11 YESTERDAY MOODY'S INVESTORS SERVICE RAISED LILCO'S CREDIT RATINGS IN RECOGNITION OF THE IMPROVED OUTLOOK FOR STEADY FINANCIAL RECOVERY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u11 is -8.31072 over 1011 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 53 utterances, errors on 0
+002c0u12 ABOUT THREE POINT FIVE BILLION DOLLARS OF SECURITIES ARE AFFECTED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u12 is -8.00983 over 480 frames.
+002c0u13 STOCK PRICES ROSE IN MODERATE TRADING 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u13 is -8.18855 over 317 frames.
+002c0u14 VOLUME ON THE NEW YORK STOCK EXCHANGE TOTALED ONE HUNDRED FIFTY THREE MILLION SHARES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u14 is -8.15838 over 581 frames.
+002c0u15 ADVANCING ISSUES ON THE BIG BOARD WERE AHEAD OF DECLINERS SEVEN HUNDRED EIGHTY ONE TO SIX HUNDRED FIFTY TWO 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 002c0u15 is -8.13567 over 729 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 48.0023s: real-time factor assuming 100 frames/sec is 0.133935
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 53 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -8.26945 over 35840 frames.
+# Accounting: time=48 threads=1
+# Ended (code 0) at Sun Jan 10 20:41:22 EET 2016, elapsed time 48 seconds

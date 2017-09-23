@@ -1,0 +1,144 @@
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 9.62 [ 128 / 1330, 27 ins, 11 del, 90 sub ]
+%SER 62.50 [ 50 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 9.62 [ 128 / 1330, 25 ins, 13 del, 90 sub ]
+%SER 63.75 [ 51 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.95 [ 119 / 1330, 20 ins, 13 del, 86 sub ]
+%SER 61.25 [ 49 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.80 [ 117 / 1330, 24 ins, 13 del, 80 sub ]
+%SER 60.00 [ 48 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.20 [ 109 / 1330, 19 ins, 13 del, 77 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.89 [ 105 / 1330, 15 ins, 13 del, 77 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.57 [ 114 / 1330, 21 ins, 13 del, 80 sub ]
+%SER 61.25 [ 49 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.05 [ 107 / 1330, 15 ins, 13 del, 79 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.89 [ 105 / 1330, 14 ins, 13 del, 78 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.35 [ 111 / 1330, 20 ins, 13 del, 78 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.89 [ 105 / 1330, 15 ins, 13 del, 77 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.82 [ 104 / 1330, 14 ins, 13 del, 77 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.97 [ 106 / 1330, 16 ins, 12 del, 78 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.82 [ 104 / 1330, 15 ins, 13 del, 76 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.67 [ 102 / 1330, 14 ins, 14 del, 74 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.97 [ 106 / 1330, 16 ins, 11 del, 79 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.89 [ 105 / 1330, 15 ins, 13 del, 77 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.67 [ 102 / 1330, 13 ins, 15 del, 74 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.97 [ 106 / 1330, 16 ins, 11 del, 79 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.59 [ 101 / 1330, 13 ins, 14 del, 74 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.67 [ 102 / 1330, 11 ins, 17 del, 74 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.20 [ 109 / 1330, 17 ins, 12 del, 80 sub ]
+%SER 60.00 [ 48 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.37 [ 98 / 1330, 11 ins, 14 del, 73 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.52 [ 100 / 1330, 11 ins, 16 del, 73 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.74 [ 103 / 1330, 14 ins, 13 del, 76 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.44 [ 99 / 1330, 12 ins, 14 del, 73 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.44 [ 99 / 1330, 11 ins, 16 del, 72 sub ]
+%SER 57.50 [ 46 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.74 [ 103 / 1330, 14 ins, 13 del, 76 sub ]
+%SER 60.00 [ 48 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.44 [ 99 / 1330, 12 ins, 14 del, 73 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.59 [ 101 / 1330, 11 ins, 17 del, 73 sub ]
+%SER 58.75 [ 47 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.67 [ 102 / 1330, 13 ins, 13 del, 76 sub ]
+%SER 60.00 [ 48 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.74 [ 103 / 1330, 13 ins, 15 del, 75 sub ]
+%SER 60.00 [ 48 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 7.67 [ 102 / 1330, 9 ins, 17 del, 76 sub ]
+%SER 60.00 [ 48 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 11.28 [ 150 / 1330, 36 ins, 11 del, 103 sub ]
+%SER 65.00 [ 52 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 10.83 [ 144 / 1330, 31 ins, 11 del, 102 sub ]
+%SER 65.00 [ 52 / 80 ]
+Scored 80 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_nosp_tgpr_eval92/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 10.00 [ 133 / 1330, 24 ins, 12 del, 97 sub ]
+%SER 62.50 [ 50 / 80 ]
+Scored 80 sentences, 0 not present in hyp.

@@ -1,0 +1,66 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph_nosp_tgpr/words.txt exp/tri1/final.mdl exp/tri1/graph_nosp_tgpr/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_eval92/split2/2/utt2spk scp:data/test_eval92/split2/2/cmvn.scp scp:data/test_eval92/split2/2/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode_nosp_tgpr_eval92/lat.2.gz" 
+# Started at Sun Jan 10 20:40:34 EET 2016
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph_nosp_tgpr/words.txt exp/tri1/final.mdl exp/tri1/graph_nosp_tgpr/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_eval92/split2/2/utt2spk scp:data/test_eval92/split2/2/cmvn.scp scp:data/test_eval92/split2/2/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode_nosp_tgpr_eval92/lat.2.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test_eval92/split2/2/utt2spk scp:data/test_eval92/split2/2/cmvn.scp scp:data/test_eval92/split2/2/feats.scp ark:- 
+400c0a0g HE SAID THE COMPANY'S GOAL IS TO HAVE FIFTEEN PERCENT TO TWENTY PERCENT REVENUE GROWTH TO ABOUT THREE POINT TWO BILLION DOLLARS FIGURE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0g is -8.75194 over 712 frames.
+400c0a0h IN FISCAL MUCH AN EIGHTY SEVEN WHEN HAD A LOSS OF SEVENTY POINT SEVEN MILLION DOLLARS ON REVENUE OF TWO POINT EIGHT FOUR BILLION DOLLARS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0h is -8.5271 over 783 frames.
+400c0a0i YESTERDAY'S SESSION BEGAN WITH A SHARP QUICK DECLINE IN THE INDUSTRIAL AVERAGE OF MORE THAN FORTY FIVE POINTS WHICH SOME MARKET ANALYSTS ATTRIBUTED TO FOREIGN SELLING 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0i is -8.60075 over 946 frames.
+400c0a0j BUT TO THE SURPRISE ALMOST EVERYONE AND STOCK PRICES BEGAN A CITY GOING TO PUSH THE AVERAGE ABOUT WEDNESDAY'S CLOSE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0j is -8.77011 over 678 frames.
+400c0a0k ALTHOUGH THOSE GAINS A ROW DID DURING THE AFTERNOON OF STOCK PRICES STAYED WITHIN A NARROW RANGE UNTIL THE LAST HALF HOUR OF TRADING 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0k is -8.66217 over 681 frames.
+400c0a0l A FALLING DOLLAR LOW UNEMPLOYMENT AND SIGNS OF CONTINUED GROWTH LED SOME ANALYSTS TO PREDICT THAT PRICE INCREASES LIE AHEAD 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0l is -8.82332 over 724 frames.
+400c0a0m BUT EVEN BEFORE THE STOCK MARKET'S CRUSH FED CHAIRMAN GREENSPAN SO NO SIGNS OF HIGH INFLATION 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0m is -8.60348 over 574 frames.
+400c0a0n SINCE THE CRASH FED OFFICIALS SEE EVEN LESS REASON TO WORRY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0n is -8.65207 over 361 frames.
+400c0a0o RATES ON SHORT TERM TREASURY BILLS WERE LITTLE CHANGED YESTERDAY IT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0o is -8.57664 over 487 frames.
+400c0a0p THE RATE ON SIX MONTH BILLS DIPPED TO FIVE POINT EIGHT THREE PERCENT BID FROM FIVE POINT EIGHT FOUR PERCENT TUESDAY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0p is -8.45966 over 658 frames.
+400c0a0q THE LATEST THREE MONTH BILLS WERE QUOTED LATE YESTERDAY AT FIVE POINT FIVE NINE PERCENT BID UNCHANGED FROM TUESDAY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0q is -8.77109 over 614 frames.
+400c0a0r THE DEBENTURES ARE NONCALLABLE FOR TEN YEARS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0r is -8.4441 over 340 frames.
+400c0a0s IN THE ELEVENTH YEAR AS SINKING FUND IS SLATED TO BEGIN TO RETIRE FIVE PERCENT OF THE ISSUE ANNUALLY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0s is -8.58006 over 652 frames.
+400c0a0t THE COMPANY HAS THE OPTION TO INCREASE THE SINKING FUND TO FIFTEEN PERCENT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0t is -8.52685 over 474 frames.
+400c0a0u AND IT'S A TECHNICAL BALLOTS SAID WILL YOU GROSS MANAGING DIRECTOR AT PACIFIC INVESTMENT MANAGEMENT COMPANY NEWPORT BEACH CALIFORNIA 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0u is -8.67994 over 776 frames.
+400c0a0v I THINK THE MARKET WENT DOWN TOO FAR TOO FAST 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0v is -8.46494 over 312 frames.
+400c0a0w WE'RE SIMPLY SAYING A TECHNICAL REBOUND 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0w is -8.47112 over 264 frames.
+400c0a0x THE BEST STRATEGY HE SAID IS TO PLAY ON SIDELINES AND HOLD CATCH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0x is -8.48137 over 434 frames.
+400c0a0y THERE WAS STRIKING SPLIT BETWEEN THE SEXES WITH MEN MORE LIKELY THAN WOMEN TO FAVOR SPREE SPURT RENTS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0y is -8.83643 over 559 frames.
+400c0a0z ALONG MAIN FIFTY SIX PERCENT SAID THE U. S. WAS DOING TOO LITTLE IN SPACE EXPLORATION ONLY A QUARTER OF WOMEN AGREED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a0z is -8.74137 over 705 frames.
+400c0a10 AMONG THEM FORTY ONE PERCENT SUPPORTED BOOSTING SPACE EXPLORATION BUDGET COMPARED WITH NINETEEN PERCENT OF WOMEN 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a10 is -8.59194 over 698 frames.
+400c0a11 THE INSTITUTE SAID AREN'T PREMIUMS ROSE THREE POINT ONE PERCENT IN THE SECOND QUARTER FAILING TO KEEP PACE WITH INFLATION WHICH ROSE FOUR POINT FIVE PERCENT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a11 is -8.68929 over 912 frames.
+400c0a12 HOWEVER INVESTMENT INCOME WHICH REPRESENTS THIRTEEN PERCENT OF THE INDUSTRY'S REVENUES ROSE ELEVEN PERCENT IN THE QUARTER REFLECTING GAINS FROM THE RISING STOCK MARKET 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a12 is -8.71835 over 968 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 27 utterances, errors on 0
+400c0a13 REALIZED CAPITAL GAINS INCREASED FORTY TWO PERCENT TO NINE HUNDRED NINE MILLION DOLLARS FROM SIX HUNDRED FORTY POINT NINE MILLION DOLLARS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a13 is -8.53058 over 850 frames.
+400c0a14 YESTERDAY'S LOSERS INCLUDED AUTOMOBILES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a14 is -8.36601 over 314 frames.
+400c0a15 HOLIDAY WAS DOWN TEN TO ONE THOUSAND NINE HUNDRED THIRTY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a15 is -8.42638 over 361 frames.
+400c0a16 NISSAN LOST THIRTY TO ONE THOUSAND FIVE HUNDRED TWENTY IN TOTAL WAS DOWN THIRTY TO END THE DAY AT TWO THOUSAND SIX HUNDRED TWENTY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance 400c0a16 is -8.61536 over 748 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 30.1105s: real-time factor assuming 100 frames/sec is 0.181553
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 27 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -8.62807 over 16585 frames.
+# Accounting: time=30 threads=1
+# Ended (code 0) at Sun Jan 10 20:41:04 EET 2016, elapsed time 30 seconds
